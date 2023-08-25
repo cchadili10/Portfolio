@@ -1,5 +1,5 @@
 .card{
-    @apply xl:h-[600px] h-[400px] rounded-3xl bg-gradient-to-tr from-slate-950 to-gray-800 xl:w-[380px] w-[300px] text-white bg-opacity-100 transition duration-300 hover:bg-opacity-90 hover:scale-105 ease-in-out shadow-3xl;
+    @apply xl:h-[600px] h-[370px] rounded-3xl bg-gradient-to-tr from-slate-950 to-gray-800 xl:w-[380px] w-[300px] text-white bg-opacity-100 transition duration-300 hover:bg-opacity-90 hover:scale-105 ease-in-out shadow-3xl;
 }
 .list-s{
     @apply list-disc ml-6 list-inside xl:text-2xl font-thin text-xl h-[400px] flex flex-col xl:justify-around;
@@ -8,11 +8,11 @@
     @apply transition ease-in-out hover:scale-110 hover:opacity-90;
 }
 .box{
-    @apply xl:h-64 h-40 xl:w-[550px] w-[350px] m-5 rounded-3xl bg-zinc-900 flex xl:flex-row flex-col transition duration-300 hover:scale-110 hover:bg-opacity-70;
+    @apply xl:h-64 h-32 xl:w-[550px] w-[350px] m-5 rounded-3xl bg-zinc-900 flex xl:flex-row flex-col transition duration-300 hover:scale-110 hover:bg-opacity-70;
 }
 .textpro{
-    @apply xl:w-60 w-[150px] ml-6 xl:mt-12 xl:ml-6 xl:text-base text-xs;
+    @apply xl:w-60 w-[190px] ml-6 xl:mt-12 xl:ml-6 xl:text-base text-xs;
 }
 .formc{
-    @apply shadow appearance-none border rounded xl:w-96 w-[250px] xl:py-2 xl:px-3 py-2 text-gray-700 leading-tight ;
+    @apply shadow appearance-none border rounded xl:w-96 w-[250px] xl:py-2  xl:px-3 py-2 text-gray-700 leading-tight ;
 }

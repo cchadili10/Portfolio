@@ -6,7 +6,7 @@ import khyati from "../images/project/khyati.png";
 
 const Projects = () => {
   return (
-    <div className="h-full w-full flex items-center justify-center xl:mt-0 mt-[300px]">
+    <div className="h-full w-full flex items-center justify-center xl:mt-0">
       <div className="flex flex-col xl:w-[1300px] h-[800px] items-center justify-center">
         <h1 className=" text-white text-6xl font-thin xl:mb-20 mb-5">Projects</h1>
         <section className="grid xl:grid-cols-2 content-center justify-items-center">

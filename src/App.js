@@ -17,23 +17,23 @@ function App() {
         pages={5}
         className="bg-gradient-to-bl from-purple-600 to-indigo-900  scrollbar-hide"
       >
-        <Desing />
-        <ParallaxLayer speed={1} factor={0.9}>
+        <ParallaxLayer speed={0.8}>
           <Home />
         </ParallaxLayer>
-        <ParallaxLayer speed={0.1} offset={1}>
+        <ParallaxLayer speed={0.5} offset={1}>
           <About />
         </ParallaxLayer>
-        <ParallaxLayer speed={0.2} offset={2}>
+        <ParallaxLayer speed={1} offset={2}>
           <Skills />
         </ParallaxLayer>
-        <ParallaxLayer speed={0.2} offset={3}>
+        <ParallaxLayer speed={0.5} offset={3}>
           <Projects />
         </ParallaxLayer>
-        <ParallaxLayer speed={0.2} offset={4}>
+        <ParallaxLayer speed={1} offset={4}>
           <Contact />
         </ParallaxLayer>
       </Parallax>
+      <Desing className="-z-10" />
     </div>
   );
 }

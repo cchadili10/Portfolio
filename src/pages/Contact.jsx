@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="xl:h-full w-full flex flex-col justify-center items-center xl:mt-0 mt-[200px]"
+      className="h-full w-full flex flex-col justify-center items-center xl:mt-0"
     >
       {is_mes ? (
         <div className="absolute transition duration-300 ease-in-out xl:w-[500px] w-[350px] rounded-xl flex justify-center items-center h-16 bg-white right-5  top-10 ">
@@ -80,10 +80,10 @@ const Contact = () => {
         <div className="xl:block hidden">
           <img className="w-[700px] scale-125" src={emailP} alt="" />
         </div>
-        <div className="bg-gradient-to-tl from-zinc-800 to-indigo-900 shadow-2xl xl:h-full xl:w-full w-[350px] h-[550px]  text-white rounded-3xl grid content-start justify-items-center">
-          <h1 className="text-4xl font-semibold xl:mt-20 mt-10">Contact Me</h1>
+        <div className="xl:bg-gradient-to-tl from-zinc-800 to-indigo-900 xl:shadow-2xl xl:h-full xl:w-full w-[360px] h-[500px]  text-white rounded-3xl grid content-start justify-items-center">
+          <h1 className="xl:text-4xl text-2xl font-semibold xl:mt-20 mt-5">Contact Me</h1>
           <div className="flex flex-col xl:mt-10 mt-3">
-            <label className="text-2xl mb-2">Name</label>
+            <label className="xl:text-2xl mb-2">Name</label>
             <input
               className="formc focus:outline-none focus:shadow-outline"
               type="text"
@@ -91,7 +91,7 @@ const Contact = () => {
             />
           </div>
           <div className="flex flex-col my-4 ">
-            <label className="text-2xl mb-2">Email</label>
+            <label className="xl:text-2xl mb-2">Email</label>
             <input
               className="formc focus:outline-none focus:shadow-outline"
               type="email"
@@ -100,7 +100,7 @@ const Contact = () => {
             />
           </div>
           <div className="flex flex-col">
-            <label className="text-2xl mb-2">Message</label>
+            <label className="xl:text-2xl mb-2">Message</label>
             <textarea
               className="formc focus:outline-none focus:shadow-outline "
               name="message"

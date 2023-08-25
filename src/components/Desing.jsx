@@ -77,7 +77,7 @@ const Desing = () => {
             number: {
               density: {
                 enable: true,
-                area: 1200,
+                area: 3000,
               },
               value: 70,
             },

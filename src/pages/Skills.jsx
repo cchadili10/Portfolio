@@ -8,12 +8,12 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="flex h-full flex-col justify-center xl:py-16 items-center  xl:mt-0  mt-28"
+      className="flex h-full flex-col justify-start xl:py-16 items-center overflow-scroll snap-start  scrollbar-hide  xl:mt-0 mt-0"
     >
       <h1 className="text-white text-6xl font-thin mb-16 ">Skills</h1>
       <section className="flex xl:flex-row flex-col justify-center">
         <div className="card">
-          <div className="h-20 w-full flex justify-center">
+          <div className="xl:h-20 h-16 w-full flex justify-center">
             <img className="h-full  mt-[-40px]" src={por} alt="" />
           </div>
           <h1 className="text-3xl font-semiboldtext-zinc-900 text-center mt-[-8px] mb-10">
@@ -29,7 +29,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className="card xl:mx-12 xl:my-0 my-14">
-          <div className="h-20 w-full flex justify-center">
+          <div className="xl:h-20 h-16 w-full flex justify-center">
             <img className="h-full  mt-[-40px]" src={des} alt="" />
           </div>
           <h1 className="text-3xl font-semibold  text-center mt-[-8px] mb-10">
@@ -46,7 +46,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className="card">
-          <div className="h-20 w-full flex justify-center">
+          <div className="xl:h-20 h-16 w-full flex justify-center">
             <img className="h-full  mt-[-40px]" src={tec} alt="" />
           </div>
           <h1 className="text-3xl font-semibold  text-center mt-[-8px] mb-10">

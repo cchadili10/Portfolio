@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="h-full w-full flex flex-col justify-center items-center xl:mt-0"
+      className="xl:h-full h-screen w-full flex flex-col justify-center items-center xl:mt-0"
     >
       {is_mes ? (
         <div className="absolute transition duration-300 ease-in-out xl:w-[500px] w-[350px] rounded-xl flex justify-center items-center h-16 bg-white right-5  top-10 ">
@@ -81,7 +81,9 @@ const Contact = () => {
           <img className="w-[700px] scale-125" src={emailP} alt="" />
         </div>
         <div className="xl:bg-gradient-to-tl from-zinc-800 to-indigo-900 xl:shadow-2xl xl:h-full xl:w-full w-[360px] h-[500px]  text-white rounded-3xl grid content-start justify-items-center">
-          <h1 className="xl:text-4xl text-2xl font-semibold xl:mt-20 mt-5">Contact Me</h1>
+          <h1 className="xl:text-4xl text-2xl font-semibold xl:mt-20 mt-5">
+            Contact Me
+          </h1>
           <div className="flex flex-col xl:mt-10 mt-3">
             <label className="xl:text-2xl mb-2">Name</label>
             <input

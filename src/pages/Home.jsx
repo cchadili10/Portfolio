@@ -14,7 +14,7 @@ const Home = () => {
     }
   }
   return (
-    <div className=" text-white h-full xl:grid xl:grid-cols-2 flex flex-col-reverse justify-end xl:justify-start z-50">
+    <div className=" text-white xl:h-full h-screen xl:grid xl:grid-cols-2 flex flex-col-reverse justify-end xl:justify-start z-50">
       <div className="flex flex-col justify-center items-center xl:text-start text-center ">
         <div className="xl:mt-0 mt-20">
           <h1 className="xl:text-6xl text-4xl mb-6">Hamza Chadili</h1>

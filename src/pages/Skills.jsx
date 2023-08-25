@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="flex h-full flex-col justify-start xl:py-16 items-center overflow-scroll snap-start  scrollbar-hide  xl:mt-0 mt-0"
+      className="flex xl:h-full h-screen flex-col justify-start xl:py-16 items-center overflow-scroll snap-start  scrollbar-hide  xl:mt-0 mt-0"
     >
       <h1 className="text-white text-6xl font-thin mb-16 ">Skills</h1>
       <section className="flex xl:flex-row flex-col justify-center">

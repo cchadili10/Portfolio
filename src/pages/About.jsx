@@ -3,7 +3,7 @@ import img from '../images/problem.svg'
 
 const About = () => {
   return (
-    <div className="h-full flex justify-center text-white ">
+    <div className="xl:h-full h-screen flex justify-center text-white ">
       <div className="xl:w-[1200px] xl:h-[70%] h-full w-full rounded-3xl bg-opacity-100  xl:grid xl:grid-cols-2 flex flex-col ">
         <div className="flex w-full justify-center items-center  ">
           <img

@@ -33,7 +33,7 @@ function App() {
           <Contact />
         </ParallaxLayer>
       </Parallax>
-      <Desing className="" />
+      {/* <Desing className="" /> */}
     </div>
   );
 }

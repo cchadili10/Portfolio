@@ -1,8 +1,8 @@
 import React from 'react'
-import chat from "../images/project/chat.png";
-import time from "../images/project/time.png";
-import stor from "../images/project/store.png";
-import khyati from "../images/project/khyati.png";
+import chat from "../images/project/chat.svg";
+import time from "../images/project/time.svg";
+import stor from "../images/project/store.svg";
+import khyati from "../images/project/khyati.svg";
 
 const Projects = () => {
   return (
@@ -22,7 +22,7 @@ const Projects = () => {
               />
               <div className="w-full ">
                 <h1 className="text-center text-2xl my-5">Chat Website</h1>
-                <p className="textpro">
+                <p className="textpro ">
                   allows you to communicate with frends in web chat. It enables
                   you to send and receive messages.
                 </p>

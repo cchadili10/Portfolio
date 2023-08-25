@@ -1,5 +1,5 @@
 import React from "react";
-import gif from "../images/Developer.png";
+import gif from "../images/Developer.svg";
 //import bg from "../images/Artificial.png";
 //import SvgComponent from "../components/SvgComponent";
 //import {useRef} from "react";

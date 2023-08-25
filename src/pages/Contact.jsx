@@ -1,6 +1,6 @@
 import React, { useRef, useState} from "react";
 import emailjs from "@emailjs/browser";
-import emailP from "../images/contact.png"
+import emailP from "../images/email.svg"
 import { GoIssueClosed } from "react-icons/go";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 

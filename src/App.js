@@ -11,11 +11,11 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
       <Floating />
       <Parallax
         pages={5}
-        className="bg-gradient-to-bl from-purple-600 to-indigo-900  scrollbar-hide"
+        className="bg-gradient-to-bl from-purple-600 to-indigo-900 h-full  scrollbar-hide"
       >
         <ParallaxLayer speed={0.8}>
           <Home />
@@ -33,7 +33,7 @@ function App() {
           <Contact />
         </ParallaxLayer>
       </Parallax>
-      {/* <Desing className="" /> */}
+      <Desing className="" />
     </div>
   );
 }
